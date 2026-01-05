@@ -19,3 +19,7 @@ venv/
 Thumbs.db
 .vscode/
 .idea/
+
+# Bug fixing files
+reproduce_bugs.py
+verify_fixes.py
