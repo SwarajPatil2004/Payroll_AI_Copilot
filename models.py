@@ -10,7 +10,7 @@ class ChatRequest(BaseModel):
     role : Role = Field(..., description="Employee or HR")
     user_id : str = Field(None, description="User ID")
     query : str = Field(..., min_length=1, description="User query")
-    lacale : str = Field("IN", description="User locale")
+    locale : str = Field("IN", description="User locale")
 
 class EvidenceItem(BaseModel):
     source : str
@@ -22,5 +22,5 @@ class ChatResponse(BaseModel):
     redacted_query : str
     evidence : List[EvidenceItem]
     refusal : bool = False
-    safty_notes : List[str] = []
+    safety_notes : List[str] = []
 

@@ -15,7 +15,7 @@ def redact_pii(text :str) -> Tuple[str, List[str]]:
 
     for label, pattern in PATTERNS.items():
         if re.search(pattern, text):
-            redacted_text = re.sub(pattern, "f{label}", redacted_text)
+            redacted_text = re.sub(pattern, f"<{label}>", redacted_text)
             notes.append(f"Redacted {label}")
     
     return redacted_text, notes
