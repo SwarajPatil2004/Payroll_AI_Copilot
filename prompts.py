@@ -1,0 +1,8 @@
+from models import Role
+
+#COMMON_RULES
+
+#ROLE_STYLE_EMPLOYEE
+
+#ROLE_STYLE_HR
+
