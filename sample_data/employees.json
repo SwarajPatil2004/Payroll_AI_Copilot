@@ -1,0 +1,7 @@
+{
+    "E001": {
+        "name": "Employee",
+        "department": "Engineering",
+        "location": "Pune"
+    }
+}
