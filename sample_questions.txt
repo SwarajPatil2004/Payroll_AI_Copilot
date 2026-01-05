@@ -1,0 +1,60 @@
+{
+  "role": "employee",
+  "user_id": "string",
+  "query": "Can I raise a discrepancy 45 days after my payroll was issued?",
+  "locale": "IN"
+}
+{
+  "role": "employee",
+  "user_id": "string",
+  "query": "Which earnings components can appear on a payslip (Basic, HRA, Special Allowance, etc.)?",
+  "locale": "IN"
+}
+{
+  "role": "employee",
+  "user_id": "string",
+  "query": "My PT was deducted—can the copilot confirm PT is a standard statutory deduction mentioned in policy?",
+  "locale": "IN"
+}
+{
+  "role": "employee",
+  "user_id": "string",
+  "query": "When is the salary usually credited and what can cause delays?",
+  "locale": "IN"
+}
+{
+  "role": "employee",
+  "user_id": "string",
+  "query": "My PAN is ABCDE1234F—why is my TDS high this month, last month my TDS was fine?",
+  "locale": "IN"
+}
+{
+    "role": "employee",
+    "user_id": "string",
+    "query": "My phone number is +91 9876543210—what are the statutory deductions I might see?",
+    "locale": "IN"
+}
+{
+    "role": "employee",
+    "user_id": "string",
+    "query": "My email is rahul.sharma@company.com—how do I raise a payroll discrepancy?",
+    "locale": "IN"
+}
+{
+  "role": "hr",
+  "user_id": "string",
+  "query": "What payroll inputs are typically used to run payroll (attendance, claims, exits, tax declarations), and who is responsible for accuracy?",
+  "locale": "IN"
+}
+{
+  "role": "hr",
+  "user_id": "string",
+  "query": "When should off-cycle payments be considered, and what approvals/documentation are required?",
+  "locale": "IN"
+}
+{
+  "role": "hr",
+  "user_id": "string",
+  "query": "When should off-cycle payments be considered, and what approvals/documentation are required?",
+  "locale": "IN"
+}
