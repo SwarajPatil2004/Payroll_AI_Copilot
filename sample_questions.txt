@@ -1,60 +1,392 @@
-{
+1. {
   "role": "employee",
-  "user_id": "string",
+  "user_id": "213",
   "query": "Can I raise a discrepancy 45 days after my payroll was issued?",
   "locale": "IN"
 }
-{
+ANS: {
+  "answer": "I'd be happy to help you with your question. \n\nAccording to our policy (SOURCE: payroll_policy.md | score=0.101), \"14) PAYROLL DISCREPANCIES (ERRORS, CORRECTIONS, AND RECOVERIES)... 14.2 Suggested timeline: - Employees should raise discrepancies as soon as possible after payroll issuance.\"\n\nHowever, I don't see any specific information about the maximum time allowed to raise a discrepancy in our policy.\n\nTo clarify this further, it would be best to consult the official ticketing/helpdesk (as communicated internally) or reach out to HR/Payroll directly for guidance on their response expectations and how they handle discrepancies raised after a certain period. \n\nPlease note that our policy emphasizes raising discrepancies as soon as possible after payroll issuance.",
+  "redacted_query": "Can I raise a discrepancy 45 days after my payroll was issued?",
+  "evidence": [
+    {
+      "source": "payroll_policy.md",
+      "snippet": "utory rules.\n\n13) PAYROLL CUT-OFF & CHANGES\n13.1 Payroll cut-off date:\n- HR/Payroll will communicate a monthly cut-off (e.g., for attendance finalisation, claims, variable pay inputs).\n13.2 Any changes after cut-off (late attendance regularisation, late approvals, corrections) may be processed in the next payroll cycle as arrears/adjustments.\n13.3 Salary structure changes (promotion, revision) are effective as per HR-approved effective dates and are reflected accordingly in payroll.\n\n14) PAYROLL DISCREPANCIES (ERRORS, CORRECTIONS, AND RECOVERIES)\n14.1 If an employee believes there is an error ",
+      "score": 0.10075453575543966
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "oll ticketing/helpdesk (as communicated internally).\n17.2 Response expectations:\n- Basic queries: typically responded to within a reasonable business timeframe.\n- Complex reconciliations: may require additional time and supporting documents.\n17.3 Employees should use official channels rather than informal chat groups for payroll issues.\n\n18) ROLE-BASED GUIDANCE (FOR AI COPILOT)\n18.1 Employee-facing guidance:\n- Explain what a payslip line item means in simple language.\n- Provide steps to raise a discrepancy ticket and what details to include.\n- Avoid requesting sensitive personal identifiers.\n\n",
+      "score": 0.09826923644193639
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ance:\n- Paid only where policy allows and where approvals and attendance evidence exist.\n11.3 Joining/Exit (Proration & Full & Final):\n- Salary for partial months is prorated based on days worked/eligible days.\n- Final settlement includes earned salary, leave encashment (if applicable), recoveries, and statutory deductions as required.\n\n12) REIMBURSEMENTS & EXPENSE PAYMENTS\n12.1 Reimbursements are processed only against valid claims submitted in the approved expense system with required supporting documents, within timelines.\n12.2 Reimbursement processing timelines may differ from payroll time",
+      "score": 0.07992670997661226
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ZENVY – PAYROLL POLICY (Version 1.0)\nEffective Date: 2026-01-01\nOwner: HR & Payroll\nApplies to: All eligible employees on ZENVY payroll in India (IN)\n\nIMPORTANT NOTICE\nThis document describes internal payroll practices and general compliance handling. It is not legal or tax advice. Where statutory interpretation is required, Payroll will follow applicable law and official notifications.\n\n1) PURPOSE\n1.1 The purpose of this Payroll Policy is to define how payroll is processed, how salary is paid, what a payslip contains, how statutory and voluntary deductions are handled, and how employees can r",
+      "score": 0.07044727404378832
+    }
+  ],
+  "refusal": false,
+  "safety_notes": []
+}
+
+
+
+
+
+2. {
   "role": "employee",
-  "user_id": "string",
+  "user_id": "111",
   "query": "Which earnings components can appear on a payslip (Basic, HRA, Special Allowance, etc.)?",
   "locale": "IN"
 }
-{
+ANS: {
+  "answer": "Based on the provided policy sources, a payslip typically contains:\n\n* Earnings: \n  - Basic Pay\n  - House Rent Allowance (HRA)\n  - Special Allowance\n  - Other allowances (e.g., shift allowance) if applicable\n  - Arrears / One-time payments (when applicable)\n\nAccording to [payroll_policy.md | score=0.267], section 6.1.\n\nPlease note that the policy sources do not provide an exhaustive list of earnings components, and it is mentioned in section 2.2 of the same source that \"Not covered (unless explicitly stated in offer/contract): Independent contractors/consultants paid via vendor invoices.\" This might imply that there could be other earnings components specific to certain types of employment or contracts. However, without further information, I can only rely on the listed examples.",
+  "redacted_query": "Which earnings components can appear on a payslip (Basic, HRA, Special Allowance, etc.)?",
+  "evidence": [
+    {
+      "source": "payroll_policy.md",
+      "snippet": "records are accurate.\n\n6) PAYSLIP CONTENTS (EARNINGS & DEDUCTIONS)\n6.1 A payslip typically contains:\nEARNINGS (examples; depends on salary structure)\n- Basic Pay\n- House Rent Allowance (HRA)\n- Special Allowance\n- Other allowances (e.g., shift allowance) if applicable\n- Arrears / One-time payments (when applicable)\n\nDEDUCTIONS (examples; depends on applicability)\n- Provident Fund (PF) employee contribution (if applicable)\n- Professional Tax (PT) (if applicable as per state rules)\n- TDS (Income Tax withholding) (if applicable)\n- Salary advances/loan recoveries (if applicable)\n- Other authorised ",
+      "score": 0.26711051683614473
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ing day depending on banking operations.\n4.4 ZENVY does not guarantee exact credit time on pay date because bank processing times vary.\n\n5) PAYROLL INPUTS (WHAT PAYROLL USES)\n5.1 Payroll calculations rely on:\n- Employee master data (name, employee ID, department, location, grade, salary structure).\n- Attendance/leave records (including Loss of Pay if applicable).\n- Approved overtime/shift allowances (if applicable).\n- Joining/exit data (date of joining, last working day, notice period recovery if applicable).\n- Approved reimbursements and one-time payments.\n- Tax declarations and proofs submit",
+      "score": 0.04207271655050146
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ividuals:\n- Full-time employees on ZENVY payroll.\n- Part-time employees on ZENVY payroll (where applicable).\n- Interns/trainees on stipend (only sections relevant to stipend processing apply).\n2.2 Not covered (unless explicitly stated in offer/contract):\n- Independent contractors/consultants paid via vendor invoices.\n- Third-party staff not on ZENVY payroll.\n2.3 Payroll is processed based on employment terms, attendance/time records, approved reimbursements, and statutory requirements.\n\n3) DEFINITIONS\n3.1 “Payroll Month”: The month for which earnings/deductions are computed.\n3.2 “Pay Date”: Th",
+      "score": 0.04201908583822794
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "butions, eligibility, wage definition, and limits are handled as per applicable PF rules and company payroll configuration.\n8.3 PF deductions may start from the month of joining or as per applicable eligibility/registration timelines.\n8.4 PF may appear as a deduction on payslip and as an employer contribution (if shown separately).\n8.5 Questions about PF UAN linking/updates should be raised through HR/Payroll support.\n\n9) PROFESSIONAL TAX (PT) – GENERAL HANDLING\n9.1 PT is a state-level tax (where applicable) and is computed based on the employee’s work location/state rules and notified slabs.\n",
+      "score": 0.03724637802073089
+    }
+  ],
+  "refusal": false,
+  "safety_notes": []
+}
+
+
+
+
+
+3. {
   "role": "employee",
-  "user_id": "string",
+  "user_id": "990",
   "query": "My PT was deducted—can the copilot confirm PT is a standard statutory deduction mentioned in policy?",
   "locale": "IN"
 }
-{
+ANS: {
+  "answer": "Based on the provided policy sources, I can confirm that Professional Tax (PT) is indeed considered a statutory deduction. According to Section 9 of the policy:\n\n\"9) PROFESSIONAL TAX (PT) – GENERAL HANDLING\n9.1 PT is a state-level tax (where applicable) and is computed based on the employee’s work location/state rules and notified slabs.\"\n\nAdditionally, in Section 3.6 of the payroll_policy.md document:\n\n\"3.7 “Statutory Deductions”: Deductions required by law, such as Provident Fund (PF), Professional Tax (PT), and Income Tax deducted at source (TDS), as applicable.\"\n\nSo, PT is mentioned as a statutory deduction, along with PF and TDS.",
+  "redacted_query": "My PT was deducted—can the copilot confirm PT is a standard statutory deduction mentioned in policy?",
+  "evidence": [
+    {
+      "source": "payroll_policy.md",
+      "snippet": "butions, eligibility, wage definition, and limits are handled as per applicable PF rules and company payroll configuration.\n8.3 PF deductions may start from the month of joining or as per applicable eligibility/registration timelines.\n8.4 PF may appear as a deduction on payslip and as an employer contribution (if shown separately).\n8.5 Questions about PF UAN linking/updates should be raised through HR/Payroll support.\n\n9) PROFESSIONAL TAX (PT) – GENERAL HANDLING\n9.1 PT is a state-level tax (where applicable) and is computed based on the employee’s work location/state rules and notified slabs.\n",
+      "score": 0.12061105354744647
+    },
+    {
+      "source": "pf_pt_tds_notes.md",
+      "snippet": "Notes (starter)\n- PF is generally a retirement-linked contribution and may be deducted as per applicable rules for eligible employees.\n- PT is a state-level tax; applicability and slabs depend on the work location/state rules.\n- TDS is withholding tax; final tax liability is determined when filing returns.",
+      "score": 0.09908065612014749
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ings before deductions.\n3.5 “Net Pay”: Take-home salary after all deductions.\n3.6 “Statutory Deductions”: Deductions required by law, such as Provident Fund (PF), Professional Tax (PT), and Income Tax deducted at source (TDS), as applicable.\n3.7 “Arrears”: Backdated earnings or recovery adjustments processed in a later payroll month.\n3.8 “Sensitive Data”: PAN, Aadhaar, bank account number, salary bank details, tax declarations, medical information, and any government ID.\n\n4) PAY CYCLE & PAY DATE\n4.1 Payroll frequency: Monthly.\n4.2 Standard pay date: Salary is normally credited by the last work",
+      "score": 0.08432198843522372
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "Emphasize compliance and documentation.\n\n19) RECORD RETENTION\n19.1 Payroll records, payslips, and statutory reports are retained as per internal policy and applicable legal requirements.\n19.2 Employees are encouraged to download and keep their payslips and Form 16 (where issued) for personal records.\n\n20) POLICY EXCEPTIONS & CHANGES\n20.1 Any exception to this policy must be approved by HR Head and Finance as applicable.\n20.2 ZENVY may update this policy from time to time. The latest published version supersedes previous versions.",
+      "score": 0.08008021046095312
+    }
+  ],
+  "refusal": false,
+  "safety_notes": []
+}
+
+
+
+
+
+4. {
   "role": "employee",
-  "user_id": "string",
+  "user_id": "123",
   "query": "When is the salary usually credited and what can cause delays?",
   "locale": "IN"
 }
-{
+ANS: {
+  "answer": "I'd be happy to help you with your question!\n\nAccording to our policy sources, the standard pay date for crediting salary is by the last working day of the month (or as communicated by HR/Payroll for that month) [SOURCE: payroll_policy.md | score=0.168].\n\nHowever, if the pay date falls on a bank holiday, salary may be credited on the previous working day or next working day depending on banking operations [SOURCE: payroll_policy.md | score=0.093]. Additionally, ZENVY does not guarantee exact credit time on pay date because it depends on bank processing times [SOURCE: payroll_policy.md | score=0.093].\n\nSo, to answer your question, the salary is usually credited by the last working day of the month or as communicated by HR/Payroll. Any delays might occur if the pay date falls on a bank holiday or due to bank processing times.\n\nIf you have any further questions or concerns, please don't hesitate to reach out to me!",
+  "redacted_query": "When is the salary usually credited and what can cause delays?",
+  "evidence": [
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ings before deductions.\n3.5 “Net Pay”: Take-home salary after all deductions.\n3.6 “Statutory Deductions”: Deductions required by law, such as Provident Fund (PF), Professional Tax (PT), and Income Tax deducted at source (TDS), as applicable.\n3.7 “Arrears”: Backdated earnings or recovery adjustments processed in a later payroll month.\n3.8 “Sensitive Data”: PAN, Aadhaar, bank account number, salary bank details, tax declarations, medical information, and any government ID.\n\n4) PAY CYCLE & PAY DATE\n4.1 Payroll frequency: Monthly.\n4.2 Standard pay date: Salary is normally credited by the last work",
+      "score": 0.16844402934759306
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ividuals:\n- Full-time employees on ZENVY payroll.\n- Part-time employees on ZENVY payroll (where applicable).\n- Interns/trainees on stipend (only sections relevant to stipend processing apply).\n2.2 Not covered (unless explicitly stated in offer/contract):\n- Independent contractors/consultants paid via vendor invoices.\n- Third-party staff not on ZENVY payroll.\n2.3 Payroll is processed based on employment terms, attendance/time records, approved reimbursements, and statutory requirements.\n\n3) DEFINITIONS\n3.1 “Payroll Month”: The month for which earnings/deductions are computed.\n3.2 “Pay Date”: Th",
+      "score": 0.0933302036856523
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "records are accurate.\n\n6) PAYSLIP CONTENTS (EARNINGS & DEDUCTIONS)\n6.1 A payslip typically contains:\nEARNINGS (examples; depends on salary structure)\n- Basic Pay\n- House Rent Allowance (HRA)\n- Special Allowance\n- Other allowances (e.g., shift allowance) if applicable\n- Arrears / One-time payments (when applicable)\n\nDEDUCTIONS (examples; depends on applicability)\n- Provident Fund (PF) employee contribution (if applicable)\n- Professional Tax (PT) (if applicable as per state rules)\n- TDS (Income Tax withholding) (if applicable)\n- Salary advances/loan recoveries (if applicable)\n- Other authorised ",
+      "score": 0.04526766443357211
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "from salary based on taxable income estimates, declarations, exemptions, deductions, and the selected tax regime as permitted.\n10.2 Payroll computes TDS based on:\n- Salary earnings projections for the financial year.\n- Employee declarations (investments/exemptions) submitted through the defined process.\n- Proof submission and verification as per timelines.\n10.3 If proofs are not submitted by the deadline, TDS may be recalculated considering only available/eligible information.\n10.4 Year-end adjustments may occur to align withholding with projected annual tax liability.\n\n11) OTHER COMMON PAYROL",
+      "score": 0.042821120130167194
+    }
+  ],
+  "refusal": false,
+  "safety_notes": []
+}
+
+
+
+
+
+5. {
   "role": "employee",
-  "user_id": "string",
+  "user_id": "768",
   "query": "My PAN is ABCDE1234F—why is my TDS high this month, last month my TDS was fine?",
   "locale": "IN"
 }
-{
+ANS: {
+  "answer": "I'd be happy to help you understand why your TDS is high this month.\n\nAccording to our policy sources, the TDS (Income Tax deducted at source) is computed based on taxable income estimates, declarations, exemptions, deductions, and the selected tax regime as permitted [SOURCE: payroll_policy.md | score=0.048]. Specifically, it mentions that \"Payroll computes TDS based on: - Salary earnings projections for the financial year. - Employee declarations (investments/exemptions) submitted through the defined process.\"\n\nIt's possible that there might be some changes in your income or investments that have been declared to us recently, which could be causing a higher TDS deduction this month.\n\nHowever, I don't know the specific details of your PAN number or any recent changes you may have made to your declarations. To get more clarity on this, I would recommend reaching out to HR/Payroll support and sharing your concerns with them. They can help review your account and provide a more detailed explanation for the change in TDS deduction.\n\nPlease note that I'm not able to access or view any sensitive information like PAN numbers.",
+  "redacted_query": "My PAN is <PAN>—why is my TDS high this month, last month my TDS was fine?",
+  "evidence": [
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ings before deductions.\n3.5 “Net Pay”: Take-home salary after all deductions.\n3.6 “Statutory Deductions”: Deductions required by law, such as Provident Fund (PF), Professional Tax (PT), and Income Tax deducted at source (TDS), as applicable.\n3.7 “Arrears”: Backdated earnings or recovery adjustments processed in a later payroll month.\n3.8 “Sensitive Data”: PAN, Aadhaar, bank account number, salary bank details, tax declarations, medical information, and any government ID.\n\n4) PAY CYCLE & PAY DATE\n4.1 Payroll frequency: Monthly.\n4.2 Standard pay date: Salary is normally credited by the last work",
+      "score": 0.13091355431686075
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ividuals:\n- Full-time employees on ZENVY payroll.\n- Part-time employees on ZENVY payroll (where applicable).\n- Interns/trainees on stipend (only sections relevant to stipend processing apply).\n2.2 Not covered (unless explicitly stated in offer/contract):\n- Independent contractors/consultants paid via vendor invoices.\n- Third-party staff not on ZENVY payroll.\n2.3 Payroll is processed based on employment terms, attendance/time records, approved reimbursements, and statutory requirements.\n\n3) DEFINITIONS\n3.1 “Payroll Month”: The month for which earnings/deductions are computed.\n3.2 “Pay Date”: Th",
+      "score": 0.07994258676655623
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "butions, eligibility, wage definition, and limits are handled as per applicable PF rules and company payroll configuration.\n8.3 PF deductions may start from the month of joining or as per applicable eligibility/registration timelines.\n8.4 PF may appear as a deduction on payslip and as an employer contribution (if shown separately).\n8.5 Questions about PF UAN linking/updates should be raised through HR/Payroll support.\n\n9) PROFESSIONAL TAX (PT) – GENERAL HANDLING\n9.1 PT is a state-level tax (where applicable) and is computed based on the employee’s work location/state rules and notified slabs.\n",
+      "score": 0.07265469841500241
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "from salary based on taxable income estimates, declarations, exemptions, deductions, and the selected tax regime as permitted.\n10.2 Payroll computes TDS based on:\n- Salary earnings projections for the financial year.\n- Employee declarations (investments/exemptions) submitted through the defined process.\n- Proof submission and verification as per timelines.\n10.3 If proofs are not submitted by the deadline, TDS may be recalculated considering only available/eligible information.\n10.4 Year-end adjustments may occur to align withholding with projected annual tax liability.\n\n11) OTHER COMMON PAYROL",
+      "score": 0.048107283967497305
+    }
+  ],
+  "refusal": false,
+  "safety_notes": [
+    "Redacted PAN"
+  ]
+}
+
+
+
+
+
+6. {
     "role": "employee",
-    "user_id": "string",
+    "user_id": "586",
     "query": "My phone number is +91 9876543210—what are the statutory deductions I might see?",
     "locale": "IN"
 }
-{
+ANS: {
+  "answer": "Based on the provided policy sources, I can tell you about the possible statutory deductions. According to the policy:\n\n* Provident Fund (PF) is a statutory social security contribution where applicable. [payroll_policy.md | score=0.150]\n* Professional Tax (PT) may be deducted as a statutory requirement.\n* Income Tax Deducted at Source (TDS) may also be applied, depending on your income and tax liability.\n\nThese deductions are categorized under \"Statutory Deductions\" in the policy. However, I don't have information about your specific phone number or any other personal details that might affect these deductions. For personalized advice or clarification, please consult a qualified tax professional or reach out to HR/payroll for more information.",
+  "redacted_query": "My phone number is +<PHONE>—what are the statutory deductions I might see?",
+  "evidence": [
+    {
+      "source": "payroll_policy.md",
+      "snippet": "y components and eligibility are defined in the employee’s offer letter / compensation structure and may vary by grade, location, and role.\n\n7) STATUTORY DEDUCTIONS – GENERAL PRINCIPLES\n7.1 ZENVY aims to comply with Indian payroll-related statutory requirements. Actual applicability depends on employee eligibility, location, salary structure, and applicable rules.\n7.2 Statutory deductions are applied as per applicable laws/rules and official notifications, and may change if regulations change.\n7.3 Payroll will not provide personal tax planning advice. Employees should consult a qualified tax p",
+      "score": 0.14959435774540317
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ings before deductions.\n3.5 “Net Pay”: Take-home salary after all deductions.\n3.6 “Statutory Deductions”: Deductions required by law, such as Provident Fund (PF), Professional Tax (PT), and Income Tax deducted at source (TDS), as applicable.\n3.7 “Arrears”: Backdated earnings or recovery adjustments processed in a later payroll month.\n3.8 “Sensitive Data”: PAN, Aadhaar, bank account number, salary bank details, tax declarations, medical information, and any government ID.\n\n4) PAY CYCLE & PAY DATE\n4.1 Payroll frequency: Monthly.\n4.2 Standard pay date: Salary is normally credited by the last work",
+      "score": 0.13500571965576005
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ividuals:\n- Full-time employees on ZENVY payroll.\n- Part-time employees on ZENVY payroll (where applicable).\n- Interns/trainees on stipend (only sections relevant to stipend processing apply).\n2.2 Not covered (unless explicitly stated in offer/contract):\n- Independent contractors/consultants paid via vendor invoices.\n- Third-party staff not on ZENVY payroll.\n2.3 Payroll is processed based on employment terms, attendance/time records, approved reimbursements, and statutory requirements.\n\n3) DEFINITIONS\n3.1 “Payroll Month”: The month for which earnings/deductions are computed.\n3.2 “Pay Date”: Th",
+      "score": 0.12084796767369706
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ance:\n- Paid only where policy allows and where approvals and attendance evidence exist.\n11.3 Joining/Exit (Proration & Full & Final):\n- Salary for partial months is prorated based on days worked/eligible days.\n- Final settlement includes earned salary, leave encashment (if applicable), recoveries, and statutory deductions as required.\n\n12) REIMBURSEMENTS & EXPENSE PAYMENTS\n12.1 Reimbursements are processed only against valid claims submitted in the approved expense system with required supporting documents, within timelines.\n12.2 Reimbursement processing timelines may differ from payroll time",
+      "score": 0.06832204047849327
+    }
+  ],
+  "refusal": false,
+  "safety_notes": [
+    "Redacted PHONE",
+    "Redacted BANK_ACCT"
+  ]
+}
+
+
+
+
+
+7. {
     "role": "employee",
-    "user_id": "string",
+    "user_id": "152",
     "query": "My email is rahul.sharma@company.com—how do I raise a payroll discrepancy?",
     "locale": "IN"
 }
-{
+ANS: {
+  "answer": "You can raise a payroll discrepancy by following the steps outlined in section 14.1 of our Payroll Policy (SOURCE: payroll_policy.md | score=0.076). To do this:\n\n1. Please provide the month of payslip impacted.\n2. Describe the issue you are experiencing with your pay, including any deductions or reimbursements that seem incorrect.\n3. Attach supporting evidence for your claim, such as attendance records or approval screenshots.\n\nYou can raise a \"Payroll Discrepancy\" ticket through our HR/Payroll ticketing/helpdesk (as communicated internally). If you're unsure about the process or need assistance, feel free to reach out to us, and we'll guide you through it.\n\nPlease remember that employees should raise discrepancies as soon as possible after identifying the issue.",
+  "redacted_query": "My email is <EMAIL>—how do I raise a payroll discrepancy?",
+  "evidence": [
+    {
+      "source": "payroll_policy.md",
+      "snippet": "utory rules.\n\n13) PAYROLL CUT-OFF & CHANGES\n13.1 Payroll cut-off date:\n- HR/Payroll will communicate a monthly cut-off (e.g., for attendance finalisation, claims, variable pay inputs).\n13.2 Any changes after cut-off (late attendance regularisation, late approvals, corrections) may be processed in the next payroll cycle as arrears/adjustments.\n13.3 Salary structure changes (promotion, revision) are effective as per HR-approved effective dates and are reflected accordingly in payroll.\n\n14) PAYROLL DISCREPANCIES (ERRORS, CORRECTIONS, AND RECOVERIES)\n14.1 If an employee believes there is an error ",
+      "score": 0.12673954887779543
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ZENVY – PAYROLL POLICY (Version 1.0)\nEffective Date: 2026-01-01\nOwner: HR & Payroll\nApplies to: All eligible employees on ZENVY payroll in India (IN)\n\nIMPORTANT NOTICE\nThis document describes internal payroll practices and general compliance handling. It is not legal or tax advice. Where statutory interpretation is required, Payroll will follow applicable law and official notifications.\n\n1) PURPOSE\n1.1 The purpose of this Payroll Policy is to define how payroll is processed, how salary is paid, what a payslip contains, how statutory and voluntary deductions are handled, and how employees can r",
+      "score": 0.07551385829885579
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "nd may be considered for:\n- Confirmed critical payroll underpayment\n- Legal/urgent corrections approved by HR/Finance\n15.2 Off-cycle requests require documented approval and may take additional processing time due to bank and accounting controls.\n\n16) DATA PRIVACY & CONFIDENTIALITY\n16.1 Payslips and salary information are confidential.\n16.2 Employees must not share payslips or tax data publicly.\n16.3 Payroll support may request minimum necessary information to resolve a case; employees should not send PAN, Aadhaar, or full bank account numbers over email/chat unless the official secure channel",
+      "score": 0.06979681548871003
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "oll ticketing/helpdesk (as communicated internally).\n17.2 Response expectations:\n- Basic queries: typically responded to within a reasonable business timeframe.\n- Complex reconciliations: may require additional time and supporting documents.\n17.3 Employees should use official channels rather than informal chat groups for payroll issues.\n\n18) ROLE-BASED GUIDANCE (FOR AI COPILOT)\n18.1 Employee-facing guidance:\n- Explain what a payslip line item means in simple language.\n- Provide steps to raise a discrepancy ticket and what details to include.\n- Avoid requesting sensitive personal identifiers.\n\n",
+      "score": 0.046625933727273555
+    }
+  ],
+  "refusal": false,
+  "safety_notes": [
+    "Redacted EMAIL"
+  ]
+}
+
+
+
+
+
+8. {
   "role": "hr",
   "user_id": "string",
   "query": "What payroll inputs are typically used to run payroll (attendance, claims, exits, tax declarations), and who is responsible for accuracy?",
   "locale": "IN"
 }
-{
+ANS: {
+  "answer": "Based on the provided policy sources, the following payroll inputs are typically used to run payroll:\n\n* Employee master data (name, employee ID, department, location, grade, salary structure) [payroll_policy.md | score=0.189]\n* Attendance/leave records [payroll_policy.md | score=0.141]\n* Approved reimbursements and one-time payments\n* Tax declarations and proofs submitted within declared timelines\n\nAs per policy source 5.2, employees are responsible for ensuring their personal details and bank details in HR records are accurate.\n\nThe policy does not explicitly mention claims as a payroll input. It mentions \"variable pay inputs\" in section 13.1, but the context is unclear. To confirm if claims are used as payroll inputs, I would need more information on what is meant by \"claims\".\n\nSimilarly, the policy does not specifically mention exits as a payroll input related to running payroll. However, it does mention \"joining/exit data (date of joining, last working day, notice period recovery if applicable)\" in section 5.1.\n\nTo clarify these points and ensure accurate payroll processing, I would recommend consulting HR/payroll for additional information or guidance on payroll inputs and accuracy requirements.",
+  "redacted_query": "What payroll inputs are typically used to run payroll (attendance, claims, exits, tax declarations), and who is responsible for accuracy?",
+  "evidence": [
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ing day depending on banking operations.\n4.4 ZENVY does not guarantee exact credit time on pay date because bank processing times vary.\n\n5) PAYROLL INPUTS (WHAT PAYROLL USES)\n5.1 Payroll calculations rely on:\n- Employee master data (name, employee ID, department, location, grade, salary structure).\n- Attendance/leave records (including Loss of Pay if applicable).\n- Approved overtime/shift allowances (if applicable).\n- Joining/exit data (date of joining, last working day, notice period recovery if applicable).\n- Approved reimbursements and one-time payments.\n- Tax declarations and proofs submit",
+      "score": 0.1889920643199322
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "utory rules.\n\n13) PAYROLL CUT-OFF & CHANGES\n13.1 Payroll cut-off date:\n- HR/Payroll will communicate a monthly cut-off (e.g., for attendance finalisation, claims, variable pay inputs).\n13.2 Any changes after cut-off (late attendance regularisation, late approvals, corrections) may be processed in the next payroll cycle as arrears/adjustments.\n13.3 Salary structure changes (promotion, revision) are effective as per HR-approved effective dates and are reflected accordingly in payroll.\n\n14) PAYROLL DISCREPANCIES (ERRORS, CORRECTIONS, AND RECOVERIES)\n14.1 If an employee believes there is an error ",
+      "score": 0.14078444356680955
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ZENVY – PAYROLL POLICY (Version 1.0)\nEffective Date: 2026-01-01\nOwner: HR & Payroll\nApplies to: All eligible employees on ZENVY payroll in India (IN)\n\nIMPORTANT NOTICE\nThis document describes internal payroll practices and general compliance handling. It is not legal or tax advice. Where statutory interpretation is required, Payroll will follow applicable law and official notifications.\n\n1) PURPOSE\n1.1 The purpose of this Payroll Policy is to define how payroll is processed, how salary is paid, what a payslip contains, how statutory and voluntary deductions are handled, and how employees can r",
+      "score": 0.08967642453546099
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "from salary based on taxable income estimates, declarations, exemptions, deductions, and the selected tax regime as permitted.\n10.2 Payroll computes TDS based on:\n- Salary earnings projections for the financial year.\n- Employee declarations (investments/exemptions) submitted through the defined process.\n- Proof submission and verification as per timelines.\n10.3 If proofs are not submitted by the deadline, TDS may be recalculated considering only available/eligible information.\n10.4 Year-end adjustments may occur to align withholding with projected annual tax liability.\n\n11) OTHER COMMON PAYROL",
+      "score": 0.08618763348842347
+    }
+  ],
+  "refusal": false,
+  "safety_notes": []
+}
+
+
+
+
+
+9. {
+  "role": "hr",
+  "user_id": "001",
+  "query": "What’s the escalation path and SLA for payroll discrepancies?",
+  "locale": "IN"
+}
+ANS: {
+  "answer": "Based on the provided policy sources (payroll_policy.md), off-cycle payments should be considered for:\n\n* Confirmed critical payroll underpayment (SOURCE: 15.1)\n* Legal/urgent corrections approved by HR/Finance (SOURCE: 15.1)\n\nIn both cases, approvals and documentation are required. Specifically, off-cycle requests require \"documented approval\" (SOURCE: 15.2).",
+  "redacted_query": "When should off-cycle payments be considered, and what approvals/documentation are required?",
+  "evidence": [
+    {
+      "source": "payroll_policy.md",
+      "snippet": "d, approval screenshot, etc.)\n14.2 Suggested timeline:\n- Employees should raise discrepancies as soon as possible after receiving the payslip.\n14.3 Correction handling:\n- If confirmed, corrections are typically processed in the next payroll as arrears/adjustments unless the impact requires an off-cycle correction.\n14.4 Overpayments:\n- If an overpayment occurs, Payroll/HR will communicate the recovery plan in advance. Recovery may be through future payroll deductions or other mutually communicated method, subject to applicable law and internal approvals.\n14.5 Underpayments:\n- If an underpayment",
+      "score": 0.22050571072324954
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ance:\n- Paid only where policy allows and where approvals and attendance evidence exist.\n11.3 Joining/Exit (Proration & Full & Final):\n- Salary for partial months is prorated based on days worked/eligible days.\n- Final settlement includes earned salary, leave encashment (if applicable), recoveries, and statutory deductions as required.\n\n12) REIMBURSEMENTS & EXPENSE PAYMENTS\n12.1 Reimbursements are processed only against valid claims submitted in the approved expense system with required supporting documents, within timelines.\n12.2 Reimbursement processing timelines may differ from payroll time",
+      "score": 0.07384913363890175
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "nd may be considered for:\n- Confirmed critical payroll underpayment\n- Legal/urgent corrections approved by HR/Finance\n15.2 Off-cycle requests require documented approval and may take additional processing time due to bank and accounting controls.\n\n16) DATA PRIVACY & CONFIDENTIALITY\n16.1 Payslips and salary information are confidential.\n16.2 Employees must not share payslips or tax data publicly.\n16.3 Payroll support may request minimum necessary information to resolve a case; employees should not send PAN, Aadhaar, or full bank account numbers over email/chat unless the official secure channel",
+      "score": 0.043091451523425556
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "oll ticketing/helpdesk (as communicated internally).\n17.2 Response expectations:\n- Basic queries: typically responded to within a reasonable business timeframe.\n- Complex reconciliations: may require additional time and supporting documents.\n17.3 Employees should use official channels rather than informal chat groups for payroll issues.\n\n18) ROLE-BASED GUIDANCE (FOR AI COPILOT)\n18.1 Employee-facing guidance:\n- Explain what a payslip line item means in simple language.\n- Provide steps to raise a discrepancy ticket and what details to include.\n- Avoid requesting sensitive personal identifiers.\n\n",
+      "score": 0.04141686215871215
+    }
+  ],
+  "refusal": false,
+  "safety_notes": []
+}
+
+
+
+
+
+10.{
   "role": "hr",
   "user_id": "string",
   "query": "When should off-cycle payments be considered, and what approvals/documentation are required?",
   "locale": "IN"
 }
-{
-  "role": "hr",
-  "user_id": "string",
-  "query": "When should off-cycle payments be considered, and what approvals/documentation are required?",
-  "locale": "IN"
+ANS: {
+  "answer": "Based on the provided policy sources (payroll_policy.md), the escalation path and Service Level Agreement (SLA) for payroll discrepancies can be summarized as follows:\n\nAccording to Section 14.1 of the policy document:\n\n\"If an employee believes there is an error in pay, deduction, or reimbursement, they must raise a “Payroll Discrepancy” ticket with:\n- Month of payslip impacted\n- Description of issue\n- Supporting evidence (attendance record, approval screenshot, etc.)\"\n\nHowever, the policy does not explicitly mention the escalation path for payroll discrepancies. It only mentions that employees should raise discrepancies as soon as possible after receiving the payslip.\n\nSection 14.2 suggests a timeline for raising discrepancies but does not provide any information on how the discrepancies will be escalated or resolved:\n\n\"Suggested timeline:\n- Employees should raise discrepancies as soon as possible after receiving the payslip.\"\n\nUnfortunately, the provided policy sources are insufficient to answer the question about the escalation path and SLA for payroll discrepancies.",
+  "redacted_query": "What’s the escalation path and SLA for payroll discrepancies?",
+  "evidence": [
+    {
+      "source": "payroll_policy.md",
+      "snippet": "utory rules.\n\n13) PAYROLL CUT-OFF & CHANGES\n13.1 Payroll cut-off date:\n- HR/Payroll will communicate a monthly cut-off (e.g., for attendance finalisation, claims, variable pay inputs).\n13.2 Any changes after cut-off (late attendance regularisation, late approvals, corrections) may be processed in the next payroll cycle as arrears/adjustments.\n13.3 Salary structure changes (promotion, revision) are effective as per HR-approved effective dates and are reflected accordingly in payroll.\n\n14) PAYROLL DISCREPANCIES (ERRORS, CORRECTIONS, AND RECOVERIES)\n14.1 If an employee believes there is an error ",
+      "score": 0.182145979319172
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ZENVY – PAYROLL POLICY (Version 1.0)\nEffective Date: 2026-01-01\nOwner: HR & Payroll\nApplies to: All eligible employees on ZENVY payroll in India (IN)\n\nIMPORTANT NOTICE\nThis document describes internal payroll practices and general compliance handling. It is not legal or tax advice. Where statutory interpretation is required, Payroll will follow applicable law and official notifications.\n\n1) PURPOSE\n1.1 The purpose of this Payroll Policy is to define how payroll is processed, how salary is paid, what a payslip contains, how statutory and voluntary deductions are handled, and how employees can r",
+      "score": 0.1150488206139913
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "d, approval screenshot, etc.)\n14.2 Suggested timeline:\n- Employees should raise discrepancies as soon as possible after receiving the payslip.\n14.3 Correction handling:\n- If confirmed, corrections are typically processed in the next payroll as arrears/adjustments unless the impact requires an off-cycle correction.\n14.4 Overpayments:\n- If an overpayment occurs, Payroll/HR will communicate the recovery plan in advance. Recovery may be through future payroll deductions or other mutually communicated method, subject to applicable law and internal approvals.\n14.5 Underpayments:\n- If an underpayment",
+      "score": 0.07410817948508827
+    },
+    {
+      "source": "payroll_policy.md",
+      "snippet": "ividuals:\n- Full-time employees on ZENVY payroll.\n- Part-time employees on ZENVY payroll (where applicable).\n- Interns/trainees on stipend (only sections relevant to stipend processing apply).\n2.2 Not covered (unless explicitly stated in offer/contract):\n- Independent contractors/consultants paid via vendor invoices.\n- Third-party staff not on ZENVY payroll.\n2.3 Payroll is processed based on employment terms, attendance/time records, approved reimbursements, and statutory requirements.\n\n3) DEFINITIONS\n3.1 “Payroll Month”: The month for which earnings/deductions are computed.\n3.2 “Pay Date”: Th",
+      "score": 0.04190470288022491
+    }
+  ],
+  "refusal": false,
+  "safety_notes": []
 }
